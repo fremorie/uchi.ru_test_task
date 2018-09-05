@@ -1,0 +1,7 @@
+.page {
+  width: $page-width;
+  @include display-flex();
+  @include flex-direction-column();
+  @include align-items(center);
+  margin: 0 auto;
+}

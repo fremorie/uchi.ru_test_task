@@ -1,0 +1,14 @@
+.popup {
+  background-color: #FFF;
+  width: $popup-width;
+  height: 195px;
+  text-align: center;
+  border-radius: 7px;
+  @include box-shadow(0 0 20px 8px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  margin: 0 auto;
+  z-index: 11;
+  left: 25px;
+  bottom: 159px;
+  display: none;
+}

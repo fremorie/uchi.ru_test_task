@@ -1,0 +1,5 @@
+.promo__sold {
+  @include display-flex();
+  @include justify-content(space-between);
+  width: 142px + 204px + 101px;
+}
