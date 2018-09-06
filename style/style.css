@@ -260,6 +260,7 @@ html {
   margin-top: 13px;
   font-size: 15px;
   line-height: 16px;
+  position: relative;
 }
 
 .subscription-option_primary {
@@ -292,11 +293,13 @@ html {
   width: 276px;
   height: 40px;
   background-color: #FF5F6D;
+  margin-top: 8px;
 }
 
 .subscription-option__total_primary {
   font-weight: bold;
   font-size: 17px;
+  height: 22px;
 }
 
 .subscription-option__title_primary {
@@ -463,6 +466,33 @@ html {
 .promo__option_left {
   border-radius: 8px 0px 0px 8px;
   border-right: none;
+}
+
+.promo__old-price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-size: 14px;
+  line-height: 16px;
+  width: 56px;
+  height: 22px;
+  color: #6A747A;
+  position: relative;
+  right: -250px;
+  top: -28px;
+  z-index: 10;
+}
+
+.promo__old-price::before {
+  content: "";
+  width: 49px;
+  height: 2px;
+  background-color: #FF5F6D;
+  position: absolute;
+  transform: rotate(-7.63deg);
+  z-index: 12;
+  top: 14px;
+  left: 0px;
 }
 
 .counter {
