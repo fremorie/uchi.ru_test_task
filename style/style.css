@@ -277,15 +277,15 @@ html {
   left: 210px;
 }
 
-.subject-icon {
-  display: inline;
-  max-width: 37px;
-  max-height: 22px;
-  padding-right: 7px;
+.subject__icon {
+  display: block;
+  margin: 0 auto;
 }
 
-.math-icon {
-  padding-left: 7px;
+.subject__image-container {
+  display: inline-block;
+  width: 30px;
+  margin-right: 7px;
 }
 
 .subscription-option__buy_primary {
