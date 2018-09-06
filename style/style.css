@@ -411,8 +411,6 @@ html {
 
 .promo__option_primary {
   margin-top: -35px;
-  margin-right: -1px;
-  margin-left: -1px;
   z-index: 10;
   -webkit-box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
