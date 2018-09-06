@@ -480,7 +480,6 @@ html {
   position: relative;
   right: -250px;
   top: -28px;
-  z-index: 10;
 }
 
 .promo__old-price::before {
@@ -490,7 +489,6 @@ html {
   background-color: #FF5F6D;
   position: absolute;
   transform: rotate(-7.63deg);
-  z-index: 12;
   top: 14px;
   left: 0px;
 }
