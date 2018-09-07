@@ -9,6 +9,6 @@
   margin: 0 auto;
   z-index: 11;
   left: 25px;
-  bottom: 159px;
+  bottom: 159px + $option-border-width-primary;
   display: none;
 }

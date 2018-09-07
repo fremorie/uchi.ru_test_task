@@ -410,6 +410,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 5px;
 }
 
 .promo__period {
@@ -642,7 +643,7 @@ html {
   margin: 0 auto;
   z-index: 11;
   left: 25px;
-  bottom: 159px;
+  bottom: 162px;
   display: none;
 }
 
