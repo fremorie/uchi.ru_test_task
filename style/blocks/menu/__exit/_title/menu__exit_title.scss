@@ -5,9 +5,10 @@
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
-  line-height: 28px;
   display: inline-block;
   text-decoration: none;
+  font-style: normal;
+  line-height: normal;
   @include justify-content(center);
   @include align-items(center);
 }

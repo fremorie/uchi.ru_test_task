@@ -110,9 +110,10 @@ html {
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
-  line-height: 28px;
   display: inline-block;
   text-decoration: none;
+  font-style: normal;
+  line-height: normal;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -131,6 +132,11 @@ html {
   min-width: 104px;
   min-height: 30px;
   margin-right: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 28px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .menu__user {
@@ -155,6 +161,7 @@ html {
   font-weight: normal;
   color: #000000;
   margin-left: 8.5px;
+  font-style: normal;
 }
 
 .menu__userpic {
@@ -178,6 +185,7 @@ html {
   width: 144px;
   height: 40px;
   margin: 14px auto 29px;
+  line-height: 28px;
 }
 
 .subscription-option__checkmark {
@@ -207,6 +215,11 @@ html {
   cursor: pointer;
   padding-left: 34px;
   margin-bottom: 13px;
+  letter-spacing: 0.00555556em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 15px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -254,6 +267,9 @@ html {
   width: 276px;
   margin: 19px auto 0px;
   padding: 0 0 14px 0;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.0181818em;
 }
 
 .subscription-option__total {
@@ -261,6 +277,7 @@ html {
   font-size: 15px;
   line-height: 16px;
   position: relative;
+  letter-spacing: 0.00555556em;
 }
 
 .subscription-option_primary {
@@ -300,10 +317,16 @@ html {
   font-weight: bold;
   font-size: 17px;
   height: 22px;
+  letter-spacing: 0.00555556em;
 }
 
 .subscription-option__title_primary {
   font-weight: bold;
+  font-style: normal;
+  line-height: 32px;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .subscription-option__label_primary {
@@ -415,8 +438,8 @@ html {
 .promo__option_primary {
   margin-top: -35px;
   z-index: 10;
-  -webkit-box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
@@ -473,13 +496,16 @@ html {
   justify-content: flex-start;
   align-items: flex-end;
   font-size: 14px;
-  line-height: 16px;
   width: 56px;
   height: 22px;
   color: #6A747A;
   position: relative;
   right: -250px;
   top: -28px;
+  letter-spacing: 0.00555556em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
 }
 
 .promo__old-price::before {

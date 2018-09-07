@@ -3,13 +3,16 @@
   justify-content: flex-start;
   align-items: flex-end;
   font-size: 14px;
-  line-height: 16px;
   width: 56px;
   height: 22px;
   color: $color-dark-grey;
   position: relative;
   right: - (356px - 56px - 50px);
   top: - (6px + 22px);
+  letter-spacing: 0.00555556em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
 }
 
 .promo__old-price::before {

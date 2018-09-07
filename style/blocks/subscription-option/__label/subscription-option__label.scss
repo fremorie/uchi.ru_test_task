@@ -4,6 +4,11 @@
   cursor: pointer;
   padding-left: 34px;
   margin-bottom: 13px;
+  letter-spacing: 0.00555556em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  font-size: 15px;
   @include user-select(none);
   @include display-flex();
   @include align-items(center);
