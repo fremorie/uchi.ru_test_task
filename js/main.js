@@ -9,23 +9,38 @@ function setNumbers() {
   document.querySelector('.counter__digit_left').innerHTML = num[0];
   document.querySelector('.counter__digit_center').innerHTML = num[1];
   document.querySelector('.counter__digit_right').innerHTML = num[2];
-
 }
 
-function showPopup() {
-  let popup = document.querySelector('.popup');
-  popup.classList.add('popup_show');
-}
 
-function hidePopup() {
-  let popup = document.querySelector('.popup');
-  popup.classList.remove('popup_show');
-}
 
 window.onload = function() {
   setNumbers();
-  var giftContainer = document.querySelector('.promo__gift');
-  giftContainer.addEventListener('mouseenter', showPopup);
-  giftContainer.addEventListener('mouseout', hidePopup);
-}
+  let giftContainer = document.querySelector('.promo__gift');
+  let popup = document.querySelector('.popup');
 
+  function showPopup() {
+    clearTimeout(popup.timer);
+    popup.classList.add('popup_show');
+  }
+
+  function hidePopup() {
+    popup.classList.remove('popup_show');
+  }
+
+
+  function startHidingPopup() {
+    clearTimeout(popup.timer);
+    popup.timer = setTimeout(hidePopup, 0);
+  }
+
+  function cancelHidingPopup() {
+    clearTimeout(popup.timer);
+  }
+
+  giftContainer.addEventListener('mouseenter', showPopup);
+  giftContainer.addEventListener('mouseleave', startHidingPopup);
+
+  popup.addEventListener('mouseenter', cancelHidingPopup);
+  popup.addEventListener('mouseleave', startHidingPopup);
+
+}
