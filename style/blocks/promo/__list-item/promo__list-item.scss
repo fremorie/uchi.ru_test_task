@@ -1,4 +1,6 @@
 .promo__list-item {
   list-style-image: url("blocks/promo/img/list_bullet.svg");
+  list-style-position: inside;
   font-size: 14px;
+  width: fit-content;
 }

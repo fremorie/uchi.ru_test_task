@@ -395,7 +395,9 @@ html {
 
 .promo__list-item {
   list-style-image: url("blocks/promo/img/list_bullet.svg");
+  list-style-position: inside;
   font-size: 14px;
+  width: fit-content;
 }
 
 .promo__list-heading {
@@ -407,10 +409,6 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 447px;
 }
 
 .promo__period {
@@ -515,6 +513,12 @@ html {
   transform: rotate(-7.63deg);
   top: 14px;
   left: 0px;
+}
+
+.promo__list {
+  margin-left: 7px;
+  margin-right: 20px;
+  display: table;
 }
 
 .counter {
