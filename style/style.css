@@ -311,6 +311,7 @@ html {
   height: 40px;
   background-color: #FF5F6D;
   margin-top: 8px;
+  margin-bottom: 27px;
 }
 
 .subscription-option__total_primary {
@@ -318,6 +319,7 @@ html {
   font-size: 18px;
   height: 22px;
   letter-spacing: 0.00555556em;
+  margin-top: 21px;
 }
 
 .subscription-option__title_primary {
@@ -330,7 +332,7 @@ html {
 }
 
 .subscription-option__label_primary {
-  margin-bottom: 23px;
+  margin-bottom: 21px;
 }
 
 .promo {
