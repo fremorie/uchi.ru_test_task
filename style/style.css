@@ -191,7 +191,7 @@ html {
 .subscription-option__checkmark {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 2px;
   height: 20px;
   width: 20px;
   background-color: #fff;
@@ -482,11 +482,13 @@ html {
 .promo__option_right {
   border-radius: 0px 8px 8px 0px;
   border-left: none;
+  padding-left: 2px;
 }
 
 .promo__option_left {
   border-radius: 8px 0px 0px 8px;
   border-right: none;
+  padding-right: 2px;
 }
 
 .promo__old-price {
@@ -621,6 +623,7 @@ html {
   font-style: normal;
   font-weight: normal;
   line-height: 14px;
+  margin-left: 10px;
 }
 
 .price-range__next-value {
