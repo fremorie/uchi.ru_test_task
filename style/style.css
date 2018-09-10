@@ -569,6 +569,7 @@ html {
 .price-range {
   display: flex;
   text-align: center;
+  width: 218px;
 }
 
 .price-range__current {
