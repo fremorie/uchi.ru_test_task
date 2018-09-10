@@ -99,8 +99,8 @@ html {
 .menu__exit_icon {
   position: relative;
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .menu__exit_title {
@@ -567,8 +567,6 @@ html {
 }
 
 .price-range {
-  font-size: 16px;
-  line-height: 14px;
   display: flex;
   text-align: center;
 }
@@ -582,6 +580,9 @@ html {
   width: 104px;
   height: 35px;
   margin-top: 3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 14px;
 }
 
 .price-range__current-value {
@@ -589,6 +590,9 @@ html {
   width: 120px;
   font-weight: bold;
   height: 29px;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
   -webkit-clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0 100%, 0 0);
   clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0 100%, 0 0);
   display: -webkit-box;
@@ -613,6 +617,9 @@ html {
   width: 104px;
   height: 35px;
   margin-top: 3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 14px;
 }
 
 .price-range__next-value {
@@ -620,6 +627,9 @@ html {
   background-color: #63379E;
   width: 117px;
   height: 29px;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

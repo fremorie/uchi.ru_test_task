@@ -3,6 +3,9 @@
   width: 120px;
   font-weight: bold;
   height: 29px;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
   @include polygon((86% 0, 100% 50%, 86% 100%, 0 100%, 0 0));
   @include display-flex();
   @include justify-content(center);
